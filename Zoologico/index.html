@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoologico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header menu">
+      <div class="menu-logo">
+        <a href="#inicio">
+          <img src="assets/img/image (2).png" alt="" />
+        </a>
+      </div>
+      <nav class="menu-child">
+        <a href="#animales">Animales</a>
+        <a href="#donaciones">Donaciones</a>
+        <a href="#contactar">Contactanos</a>
+        <a href="#ubicacion">Ubicación</a>
+      </nav>
+    </header>
+    <section id="inicio" class="home">
+      <article class="hero-image">
+        <aside class="hero-image-content">
+          <h2 class="hero-image-title">
+            DESCUBRE TU <span> LADO SALVAJE </span>
+          </h2>
+        </aside>
+      </article>
+    </section>
+    <section class="contenedor animales" id="animales">
+      <h2>Conoce nuestros animales</h2>
+      <section class="container animales-child">
+        <img src="assets/img/leon.webp" alt="" />
+        <img src="assets/img/zebra.jpg" alt="" />
+        <img src="assets/img/hipopotamo_104.webp" alt="" />
+        <img src="assets/img/jirafa.jpg" alt="" />
+        <img src="assets/img/pinguinos.jpg" alt="" />
+      </section>
+    </section>
+
+    <section class="contenedor animales" id="donaciones">
+      <h2>Donaciones</h2>
+      <section class="container donaciones">
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/jorgereyes.130101@gmail.com"
+          method="post"
+        >
+          <label
+            >Nombre<input type="text" name="nombre" id="nombre" required />
+          </label>
+          <label
+            >Correo<input type="text" name="correo" id="correo" required
+          /></label>
+          <label
+            >Cantidad<input
+              type="number"
+              name="cantidad"
+              id="can
+            "
+              required
+          /></label>
+          <input type="submit" name="Enviar" />
+        </form>
+      </section>
+    </section>
+
+    <section class="contenedor animales" id="contactar">
+      <h2>Contactanos</h2>
+      <section class="container contactanos">
+        <a href="tel: 1234567890"> Teléfono: 123-456-7890 </a>
+        <a href="mailto: inventado@gmail.com"> Correo: inventado@gmail.com </a>
+      </section>
+    </section>
+    <section class="contenedor animales" id="ubicacion">
+      <h2>Ubicacion</h2>
+      <section class="container contactanos">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15216.001696220412!2d-99.5071621!3d17.5551665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cbec8c633d0d97%3A0x65928a53f4337ce2!2sZool%C3%B3gico%20Zoochilpan!5e0!3m2!1ses-419!2smx!4v1676616857447!5m2!1ses-419!2smx"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </section>
+    <footer>
+      <button><i class="fa-brands fa-facebook-f"></i>Facebook</button>
+      <button><i class="fa-brands fa-twitter"></i>Twitter</button>
+      <button><i class="fa-brands fa-instagram"></i>Instagram</button>
+      <button><i class="fa-brands fa-youtube"></i>Youtube</button>
+    </footer>
+    <section class="autor"><h4>JORGE LUIS FRANCISCO REYES</h4></section>
+    <script src="scripts.js"></script>
+  </body>
+</html>
