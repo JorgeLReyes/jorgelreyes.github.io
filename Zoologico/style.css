@@ -178,6 +178,7 @@ html::-webkit-scrollbar-thumb {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-right: 5vw;
 }
 
 .hero-image-title {
@@ -187,11 +188,31 @@ html::-webkit-scrollbar-thumb {
   color: var(--link-color);
   text-shadow: 1px 1px #181818;
   text-align: end;
-  padding-right: 5vw;
 }
 
 .hero-image-title span {
   display: block;
+}
+
+.hero-image-content > article {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+
+.mapa:hover {
+  color: #009e9e;
+  border: medium solid #009e9e;
+}
+
+.hero-image-content a {
+  text-align: center;
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  border: medium solid #fff;
+  text-decoration: none;
 }
 
 /****ANIMALES****/
@@ -271,6 +292,7 @@ form > input[type="submit"] {
 }
 
 .contactanos a {
+  text-align: center;
   color: #181818;
   text-decoration: none;
   font-size: 1.1rem;
